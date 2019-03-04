@@ -110,6 +110,7 @@ redis_client_output_buffer_limit_pubsub: 32mb 8mb 60
 ## Redis sentinel configs
 # Set this to true on a host to configure it as a Sentinel
 redis_sentinel: false
+redis_sentinel_overwrite_config: false
 redis_sentinel_dir: /var/lib/redis/sentinel_{{ redis_sentinel_port }}
 redis_sentinel_bind: 0.0.0.0
 redis_sentinel_port: 26379
